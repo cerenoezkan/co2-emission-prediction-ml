@@ -1,4 +1,4 @@
-# 🌍 Sustainable Development Planning with Machine Learning  
+#  Sustainable Development Planning with Machine Learning  
 ## Multi-Country CO₂ Emission Prediction Model and the Case of Turkey
 
 This project focuses on **machine learning–based CO₂ emission prediction models** developed using **multi-country datasets**, within the scope of the **United Nations Sustainable Development Goals (SDG 13 – Climate Action)**.
@@ -7,7 +7,7 @@ The study analyzes both **per capita CO₂ emissions across countries** and **Tu
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Predict **per capita CO₂ emissions** using multi-country historical data  
 - Model complex relationships between socio-economic variables using **Random Forest Regression**  
@@ -17,7 +17,7 @@ The study analyzes both **per capita CO₂ emissions across countries** and **Tu
 
 ---
 
-## 📊 Dataset and Sources
+##  Dataset and Sources
 
 ### Main Dataset
 - **Source:** Our World in Data (OWID) – CO₂ Dataset  
@@ -31,7 +31,7 @@ The study analyzes both **per capita CO₂ emissions across countries** and **Tu
 
 ---
 
-## 🧩 Variables Used
+##  Variables Used
 
 ### Dependent Variable
 - `co2_per_cap` – CO₂ emissions per capita (tons)
@@ -45,7 +45,7 @@ The study analyzes both **per capita CO₂ emissions across countries** and **Tu
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1️⃣ Data Preprocessing & Exploratory Analysis
 - Pearson correlation matrix  
@@ -63,7 +63,7 @@ The study analyzes both **per capita CO₂ emissions across countries** and **Tu
 
 ---
 
-## 📈 Results and Visualizations
+##  Results and Visualizations
 
 ### 🔹 Variable Relationships
 Correlation analysis shows that **energy consumption per capita** is the most influential factor affecting CO₂ emissions.
@@ -94,7 +94,7 @@ The model explains approximately **96.8% of the variance** in per capita CO₂ e
 
 ---
 
-## ⏳ Additional Analysis: Turkey’s Total CO₂ Emissions (Time Series)
+##  Additional Analysis: Turkey’s Total CO₂ Emissions (Time Series)
 
 Turkey’s total CO₂ emissions were analyzed using **ARIMA** and **Prophet** models.
 
@@ -107,14 +107,14 @@ Turkey’s total CO₂ emissions were analyzed using **ARIMA** and **Prophet** m
 ### 🔹 Prophet Components
 ![Prophet Components](figures/prophet_components.png)
 
-📌 **Key Findings:**
+ **Key Findings:**
 - Prophet model achieved **R² = 0.9096**
 - While per capita emissions show a decreasing trend, **total emissions continue to increase**
 - Population growth and industrialization are major contributing factors
 
 ---
 
-## 🏛️ Conclusions and Policy Implications (SDG 13)
+##  Conclusions and Policy Implications (SDG 13)
 
 ### Conclusions
 - Random Forest achieved high predictive accuracy  
@@ -129,7 +129,7 @@ Turkey’s total CO₂ emissions were analyzed using **ARIMA** and **Prophet** m
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
